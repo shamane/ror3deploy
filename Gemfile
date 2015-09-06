@@ -22,3 +22,12 @@ end
 
 gem 'jquery-rails'
 
+group :development do
+  gem 'capistrano', '3.4.0', require: false
+  gem 'capistrano-rvm', '0.1.2', require: false
+  gem 'capistrano-rails', '1.1.3', require: false
+  gem 'capistrano-bundler', '1.1.4', require: false
+  gem 'capistrano3-puma', '1.2.1',  require: false
+end
+
+gem 'puma', '2.13.4'
